@@ -71,6 +71,42 @@ p {
     margin: 0 auto;
 }
 
+.heading .heading-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 5vh;
+}
+
+.heading-nav img{
+    padding-right: 2.5%;
+    height: fit-content;
+    width: fit-content;
+}
+
+.heading .heading-nav a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color:black;
+    transition: 0.3s;
+
+}
+
+.heading .heading-nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+.heading .heading-image{
+    margin-bottom: 2.5%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +148,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes #one{
+    background: teal;
+}
+
+.middle-content .boxes #two{
+    background: gold;
+}
+
+.middle-content .boxes #three{
+    background: cadetblue;
+}
+
+.middle-content .boxes #four{
+    background: coral;
+}
+
+.middle-content .boxes #five{
+    background: crimson;
+}
+
+.middle-content .boxes #six{
+    background: forestgreen;
+}
+
+.middle-content .boxes #seven{
+    background: darkorchid;
+}
+
+.middle-content .boxes #eight{
+    background: hotpink;
+}
+
+.middle-content .boxes #nine{
+    background: indigo;
+}
+
+.middle-content .boxes #ten{
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +201,74 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+.about-page .top-content {
+    margin-bottom: 5%;
+}
+
+.about-page .text-container{
+    width: fit-content;
+}
+
+.about-page .middle-content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: fit-content;
+    margin-bottom: 4%;
+    border-bottom: none;
+}
+
+.about-page .middle-content .about-middle{
+    width: min-content;
+    border-bottom: 2px black dotted;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+
+}
+
+.about-page .middle-content .about-middle .text-container h2{
+    padding:4% 0%;
+}
+.about-page .middle-content .about-middle .text-container p {
+    padding-bottom: 3%;
+}
+.about-page .middle-content .about-middle .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black 2px;
+    width: 37%;
+    height: 10%;
+    border-radius: 10px;
+    margin: 2% 0;
+}
+
+.about-page .middle-content .about-middle .button a{
+    display: flex;
+    flex-flow: row wrap;
+    justify-items: center;
+    align-self: center;
+    padding: 10% 19.5%;
+    border-radius: 10px;
+    overflow: clip;
+    height: max-content;
+    width: 100%;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    transition: 0.3s;
+}
+
+.about-page .middle-content .about-middle .button a:hover{
+    background-color: black;
+    color: white;
+}
+
+.about-page .bottom-content{
+    margin-top: -4%;
+} 
+
 
 footer {
     width: 100%;
